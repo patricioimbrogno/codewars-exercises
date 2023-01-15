@@ -10,9 +10,10 @@ function zero(fn) {
   return n;
 }
 
-function one(fn) {
+function one() {
     let obj = {times: "*", plus: "+", minus: "-", dividedBy: "/"};
     let operation = fn.name
+    
     let number = fn()
 
     if(fn) {
